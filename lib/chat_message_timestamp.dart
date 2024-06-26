@@ -105,7 +105,7 @@ class TimestampedChatMessage extends LeafRenderObjectWidget {
 
     renderObject.sentAtStyle = effectiveTextStyle
         .copyWith(
-          color: style.color!.withAlpha(180),
+          color: style.color?.withAlpha(180),
           fontSize: 13,
         )
         .merge(sentAtStyle);
