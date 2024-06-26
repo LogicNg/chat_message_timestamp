@@ -13,7 +13,7 @@ here you have all the case possible
 
 checkout the example table to see complete implementation
 
-![chat preview](previews/preview.PNG "chat preview")
+![chat preview](previews/preview.png "chat preview")
 
 ## Getting started
 
@@ -32,7 +32,7 @@ import 'package:chat_message_timestamp/chat_message_timestamp.dart';
 
 ## Usage
 
-use any shape you want such container ,card or customPainter then add it some padding  and that's it. Simple right
+use any shape you want such container ,card or customPainter then add it some padding and that's it. Simple right
 
 ```dart
 Container(
@@ -45,12 +45,12 @@ Container(
 ),
 ```
 
-You have a litte helper extension on DateTime for formatting DateTime instance in this package named *formattedTimeHm* that you can use .
+You have a litte helper extension on DateTime for formatting DateTime instance in this package named _formattedTimeHm_ that you can use .
 
 ```dart
 TimestampedChatMessage(
         text:'your message here',
-        sentAt: DateTime.now().formattedTimeHm,// this will return a string of formatted date hm. ex: 13:06 
+        sentAt: DateTime.now().formattedTimeHm,// this will return a string of formatted date hm. ex: 13:06
 
 ),
 ```
